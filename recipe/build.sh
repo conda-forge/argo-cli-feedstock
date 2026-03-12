@@ -6,7 +6,7 @@ JOBS=max yarn --cwd ui build
 go build \
     -v \
     -gcflags '' \
-    -ldflags "-X 'github.com/argoproj/argo-workflows/v3.version=v${PKG_VERSION}'" \
+    -ldflags "-X 'github.com/argoproj/argo-workflows/v4.version=v${PKG_VERSION}'" \
     -o "${PREFIX}/bin/argo" \
     ./cmd/argo/
 
