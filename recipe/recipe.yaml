@@ -1,5 +1,5 @@
 context:
-  version: "4.0.3"
+  version: "4.0.4"
 
 package:
   name: argo-cli
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/argoproj/argo-workflows/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 85e1714e8442a72c9ddd3e78c9a42a081fd69dde1290c41fbd7f1619dc4c288c
+    sha256: 8a3039405b27ebb45645ffbc17b36f95b98bac3c91b6e0d8ae0f0b6a0f267d03
   - url: https://raw.githubusercontent.com/jmespath/go-jmespath/b89213a/LICENSE
     sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
     file_name: LICENSE-jmespath
